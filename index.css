@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: cursive;
+    border: border-box;
+    overflow-x: hidden;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0F1111;
+    height:75px;
+    align-items: center;
+   
+}
+
+.margintop{
+    margin-top: 10px;
+}
+.address2{
+    color: aliceblue;
+   
+}
+.address1{
+    color:#cccccc;
+}
+.a{
+    color: white;
+}
+.navbar img{
+    height:35px;
+    width:80px;
+    /* margin-bottom: 6px; */
+    margin-left: 10px;
+    padding-left: 2px;
+    /* padding-bottom: 3px; */
+    margin-top: 10px;
+    color: aliceblue;
+}
+.navbar img:hover{
+    border:2px solid white;
+    border-radius:7px;
+}
+.nav-address{
+    font-size: 0.7rem;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 1.5px;
+}
+.icon{
+    display: flex;
+}
+.nav-address:hover{
+    border:2px solid white;
+    border-radius:7px;
+}
+.seting{
+   width: 800px;
+   height: 40px;
+}
+.abc{
+    height: 47px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav-search{
+    display: flex;
+    margin-left: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(241, 177, 74);
+    width: 45px;
+    margin-left: 5px;
+    height: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search:hover{
+    background-color:  rgb(242, 158, 23) ;
+    border:2px solid orange;
+}
+.bghover:hover{
+    background-color: #eae9e9;
+    border: 2px solid orange;
+}
+.small{
+    font-size: 0.7rem;
+}
+.large{
+    font-size: 0.8rem;
+}
+.borderhover:hover{
+    border: 2px solid white;
+    padding: 0.3rem;
+}
+.kart i{
+    
+    font-size: 20px;
+}
+.kart{
+    color: white;
+    font-size: 15px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#111717;
+    color: white;
+    height: 48px;
+    
+}
+#sidemenu{
+    position: absolute;
+    left: -350px;
+    height: 680px;
+    width: 350px;
+    overflow: scroll;
+    transition: all 0.3s ease-in;
+    background-color: rgb(232, 239, 239);
+    z-index: 1;
+}
+.container1{
+    margin: 2rem;
+}
+.trending{
+    padding: 0.6rem;
+}
+.trending:hover{
+    border: 2px solid black;
+    background-color: #cccccc;
+    border-radius: 1rem;
+}
+.hero-section{
+    background-image: url("frame.jpg");
+    background-size: cover;
+    height: 610px;
+    
+    
+}
+
+.hero-message{
+    display: flex;
+    font-size: 17px;
+   
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+ 
+    top: 45.9rem;
+    height: 3rem;
+    width:100%;
+    background-color: rgb(252, 110, 15);
+    z-index: -1;
+}
+.shop-items{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+   
+}
+.box{
+    height: 500px;
+    width: 33%;
+    
+   
+}
+.img1{
+    height: 420px;
+    width: 450px;
+    background-size: cover;
+    margin-left: 25px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.textalign{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+   color: rgb(19, 117, 255);
+}
+.elem1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    overflow-y: hidden;
+    height: 4rem;
+    background-color: #3d4c5f;
+    color: azure;
+    font-size: 1.5rem;
+}
+.elem1 a{
+    color:white;
+    text-decoration: none;
+    
+}
+.y:hover{
+    color:rgb(242, 158, 23);
+    
+}
+.elem2{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #232F3E;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.elem2a{
+    color: white;
+    
+    width: 18%;
+    height: 180px;
+}
+.space{
+    padding: 5px;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #131A22;
+    width: 100%;
+    height: 50px;
+}
